@@ -6,7 +6,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/halium.mk)
 # Inherit from lmi device
 $(call inherit-product, device/xiaomi/lmi/device.mk)
 
-PRODUCT_NAME := lineage_lmi
+PRODUCT_NAME := halium_lmi
 PRODUCT_DEVICE := lmi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
